@@ -28,7 +28,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'asset_tracker',
-    # 'rest_framework',
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
