@@ -11,7 +11,7 @@ class CompanyModel(models.Model):
 
 # employee table linked to the company table to register their employee 
 class EmployeeModel(models.Model):
-   company = models.ForeignKey(CompanyModel, related_name= 'employe', on_delete=models.CASCADE)
+   company = models.ForeignKey(CompanyModel, on_delete=models.CASCADE)
    employee_name = models.CharField(max_length=100)
    employee_department = models.CharField(max_length=100)
    
@@ -36,8 +36,8 @@ class AssetsModel(models.Model):
 
 # a table to track the asset check out and check in 
 class AssetsLog(models.Model):
-   asset = models.ForeignKey(AssetsModel, related_name= 'asset', on_delete=models.CASCADE, null=True, blank=True)
-   employee = models.ForeignKey(EmployeeModel, related_name= 'employee', on_delete=models.CASCADE, null=True, blank=True)
+   asset = models.ForeignKey(AssetsModel, on_delete=models.CASCADE, null=True, blank=True)
+   employee = models.ForeignKey(EmployeeModel,  on_delete=models.CASCADE, null=True, blank=True)
    checkout_date = models.DateTimeField()
    return_date = models.DateTimeField(null=True, blank=True)
    checkout_condition = models.TextField()
