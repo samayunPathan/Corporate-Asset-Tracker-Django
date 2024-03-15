@@ -9,6 +9,8 @@ router.register(r'company',CompanyListCreateView,basename='company')
 router.register(r'employee',EmployeeListCreateView,basename='employee')
 router.register(r'asset',AssetsListCreateView,basename='asset')
 router.register(r'assetlog',AssetslogView,basename='assetlog')
+router.register(r'assetlog/<id>',AssetslogView,basename='assetlog')
+
 
 
 urlpatterns = []+router.urls
