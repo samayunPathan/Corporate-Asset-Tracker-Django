@@ -1,8 +1,14 @@
 from django.urls import path
-from asset_tracker import views
+from .views import *
+from rest_framework.routers import DefaultRouter
 
 app_name='asset_tracker'
+router=DefaultRouter()
 
-urlpatterns = [
-    path('',views.asset,name='datetime')
-]
+router.register(r'company',CompanyListCreateView,basename='company')
+router.register(r'employee',EmployeeListCreateView,basename='employee')
+router.register(r'asset',AssetsListCreateView,basename='asset')
+router.register(r'assetlog',AssetslogView,basename='assetlog')
+
+
+urlpatterns = []+router.urls
