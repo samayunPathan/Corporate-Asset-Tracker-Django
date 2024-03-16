@@ -17,7 +17,8 @@
 - used Django Rest Framework for creating the API's.
 - used SQLITE3 database for this project.
 - used Django Serializer for creating the serializers.
-- used Swagger UI to create interactive API documentation  
+- used Swagger UI to create interactive API documentation
+- used JWT authentication
 
 
 ## Getting Started
@@ -84,9 +85,22 @@ The API provides the following endpoints:
 
     http://127.0.0.1:8000/swagger/
 
+## Screenshots
+
+
+![Screenshot (83)](https://github.com/samayunPathan/Corporate-Asset-Tracker-Django/assets/93588462/200fa434-d791-42b8-8293-4508673d3f9c)
+![Screenshot (84)](https://github.com/samayunPathan/Corporate-Asset-Tracker-Django/assets/93588462/606bdfe9-cd3e-4180-a601-42b03f34440c)
+
+![Screenshot (87)](https://github.com/samayunPathan/Corporate-Asset-Tracker-Django/assets/93588462/b542c94d-76ae-412b-85ab-bd76c752e003)
+
+
+![Screenshot (88)](https://github.com/samayunPathan/Corporate-Asset-Tracker-Django/assets/93588462/32fb2bfc-8681-4137-a3c5-cf512bf64ad6)
+
+![Screenshot (90)](https://github.com/samayunPathan/Corporate-Asset-Tracker-Django/assets/93588462/f87e0abb-400e-4349-8c4c-adf76e3e2d45)
 
 
 
+![Screenshot (89)](https://github.com/samayunPathan/Corporate-Asset-Tracker-Django/assets/93588462/52c3542b-45be-4836-a390-b0cc97eb4a90)
 
 
 ## Screenshots 
