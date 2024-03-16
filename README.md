@@ -103,7 +103,7 @@ The API provides the following endpoints:
 ![Screenshot (89)](https://github.com/samayunPathan/Corporate-Asset-Tracker-Django/assets/93588462/52c3542b-45be-4836-a390-b0cc97eb4a90)
 
 
-## Screenshots 
+
 
 
 
